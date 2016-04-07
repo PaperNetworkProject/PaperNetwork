@@ -7,7 +7,7 @@ class LtdPaperDetails:
     def _set_id_(self, id):
         if not isinstance(id, str):
             raise TypeError("self.__id : str expected, %s found" % type(id).__name__)
-        self.__id = id
+        self.__id = id.encode('ascii', 'replace')
     
     id = property(_get_id_, _set_id_)
     # --- --- --- --- --- --- --- ---
@@ -17,7 +17,7 @@ class LtdPaperDetails:
     def _set_src_(self, src):
         if not isinstance(src, str):
             raise TypeError("self.__src : str expected, %s found" % type(src).__name__)
-        self.__src = src
+        self.__src = src.encode('ascii', 'replace')
         
     src = property(_get_src_, _set_src_)
     # --- --- --- --- --- --- --- ---
@@ -27,7 +27,7 @@ class LtdPaperDetails:
     def _set_title_(self, title):
         if not isinstance(title, str):
             raise TypeError("self.__title : str expected, %s found" % type(title).__name__)
-        self.__title = title
+        self.__title = title.encode('ascii', 'replace')
         
     title = property(_get_title_, _set_title_)
     # --- --- --- --- --- --- --- ---
@@ -35,12 +35,13 @@ class LtdPaperDetails:
         return self.__authors
         
     def _set_authors_(self, authors):
+        self.__authors = []
         if not isinstance(authors, list):
             raise TypeError("self.__authors : [str] expected, %s found" % type(authors).__name__)
         for author in authors:
             if not isinstance(author, str):
                 raise TypeError("self.__authors : [str] expected, [%s] found in the list" % type(author).__name__)
-        self.__authors = authors
+                self.__authors.append(author.encode('ascii', 'replace'))
         
     authors = property(_get_authors_, _set_authors_)
     # --- --- --- --- --- --- --- ---

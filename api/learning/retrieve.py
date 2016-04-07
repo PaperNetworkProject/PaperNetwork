@@ -5,6 +5,8 @@ Note :
       installation (console) -> 'pip install requests'
 """
 
+import time
+import grequests
 import requests
 import json
 import pprint
@@ -15,43 +17,49 @@ from internal_types import *
 epmc_endpoint = "http://www.ebi.ac.uk/europepmc/webservices/rest/"
 
 def search(terms = []):
-    # check terms types
-    checked_terms = []
+    start_time = time.time()
+    # construct base url
+    query_url = epmc_endpoint + "search?format=json&pageSize=1000&query="
+    count_url = epmc_endpoint + "profile?format=json&query="
     if isinstance(terms, list):
         for term in terms:
             if isinstance(term, (str, int)):
-                checked_terms.append(str(term))
+                query_url += str(term)
+                count_url += str(term)
     elif isinstance(terms, (str, int)):
-        checked_terms.append(terms)
-    # construct the query
-    query_url = epmc_endpoint + "search"
-    query_params = {
-        'query' : checked_terms,
-        'format' : 'json',
-        'pageSize' : 1000 }
-    query_results = []
-    # perform the queries
-    JSON_resp = requests.get(query_url, params = query_params).json() # first query
+        query_url += str(terms)
+        count_url += str(terms)
+    query_url += "&page="
+    # compute the number of pages for the query
+    query_results = []    
+    JSON_resp = requests.get(count_url).json() # first query
     if 'errCode' in JSON_resp:
         raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
     else:
-        hit_count = int(JSON_resp['hitCount'])
-        page_count = int(math.floor(hit_count / 1000) + 1) # TODO look into that again
-        print("hit count : {0}".format(hit_count))
-        print("page count : {0}".format(page_count))
-        for paper in extract_LtdPaperDetails(JSON_resp['resultList']['result']):
-            query_results.append(paper)
-        # perform extra queries if there is more pages
-        if page_count > 1:
-            for page in range(1, page_count + 1):
-                query_params['page'] = page
-                JSON_resp = requests.get(query_url, params = query_params).json() # first query
+        query_urls = []
+        hit_count = 0
+        # construct each requests
+        for pubType in JSON_resp['profileList']['pubType']:
+            if (pubType['name'] == 'ALL'):
+                hit_count = pubType['count']
+        page_count = int(math.floor(hit_count / 1000) + 1)
+        for page in range(1, page_count + 1):
+            query_urls.append(query_url + str(page))
+        # perform queries
+        queries = (grequests.get(url) for url in query_urls)
+        responses = grequests.map(queries)
+        print ("queries done")
+        for response in responses:
+            if not (response is None):
+                JSON_resp = response.json()
                 if 'errCode' in JSON_resp:
                     raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
-                else:
+                elif 'resultList' in JSON_resp:
                     for paper in extract_LtdPaperDetails(JSON_resp['resultList']['result']):
                         query_results.append(paper)
+            response.close()
     # return papers found
+    print("--- {0} seconds - {1} results ---".format(time.time() - start_time, len(query_results)))
     return query_results
 
 def extract_LtdPaperDetails(JSON_list):
@@ -71,8 +79,6 @@ def extract_LtdPaperDetails(JSON_list):
             extracted_papers.append(LtdPaperDetails(id, src, title, authors, pubYear, citedCount))
     return extracted_papers
 
-test_results = search(["malaria", 2003, "juin"])
+test_results = search(["malaria"])
 #test_results = search(["malaria 2003 juin"])
 print("result length : {0}".format(len(test_results)))
-for paper in test_results:
-    print(paper)

@@ -1,0 +1,4 @@
+{"phase":0,"papers_found":18,"papers_explored":1,"relations_found":17}
+{"phase":0,"papers_found":113,"papers_explored":11,"relations_found":129}
+{"phase":1,"papers_known":113,"papers_explored_for_terms":10}
+{"phase":1,"papers_known":113,"papers_explored_for_terms":20}

@@ -1,0 +1,159 @@
+
+"""
+def search_related_papers(src = "", id = "", relation_type = "", page_size = 1000):
+    if not relation_type in ["citations","references"]:
+        raise ValueError("relation_type : expected 'citations' or 'references', found {0}".format(relation_type))
+    # set up queries
+    query_url_b = epmc_endpoint + src + "/" + id + "/" + relation_type + "/"
+    query_url_e = "/" + str(page_size) + "/json/"
+    hit_count = estimate_relation_hit_count(src, id, relation_type)
+    page_count = calc_page_count(hit_count, page_size)
+    query_urls = map(lambda p : query_url_b + str(p) + query_url_e, range(1, page_count + 1))
+    # perform queries
+    queries = (grequests.get(url) for url in query_urls)
+    responses = grequests.map(queries)
+    # handle responses
+    query_results = set()
+    list_header = 'citationList' if relation_type == 'citations' else 'referenceList'
+    item_header = 'citation'     if relation_type == 'citations' else 'reference'
+    for response in responses:
+        if not (response is None):
+            JSON_resp = response.json()
+            if 'errCode' in JSON_resp:
+                raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
+            elif list_header in JSON_resp:
+                for paper in extract_LtdPaperDetails(JSON_resp[list_header][item_header]):
+                    query_results.add(paper)
+        response.close()
+    return query_results
+"""
+"""
+def build_queries_url_for_related_papers(papers = [], relation_types = ["citations","references"], page_size = 1000):
+    # type checking
+    if not isinstance(papers, list):
+        raise ValueError("papers : expected list of [src, id]")
+    for paper in papers:
+        if not isinstance(paper, tuple):
+            raise ValueError("papers : expected list of [src, id]")
+        for val in paper:
+            if not isinstance(val, str):
+                raise ValueError("papers : expected str found {0}".format(type(val).__name__    ))
+    # set up queries
+    query_urls = set()
+    for relation_type in relation_types:
+        for paper in papers:
+            query_url_b = epmc_endpoint + paper[0] + "/" + paper[1] + "/" + relation_type + "/"
+            query_url_e = "/" + str(page_size) + "/json/"
+            hit_count = estimate_relation_hit_count(paper[0], paper[1], relation_type)
+            page_count = calc_page_count(hit_count, page_size)
+            for url in map(lambda p : query_url_b + str(p) + query_url_e, range(1, page_count + 1)):
+                query_urls.add(url)
+    return query_urls
+
+def format_word(word, to_delete):
+    normal_word = word
+    for x in to_delete:
+        normal_word = normal_word.replace(x, "")
+    return normal_word.lower()
+"""
+"""
+def search_related_papers_for_list_of_papers(papers = [], known_papers = dict(), known_relations = dict(), word_count = dict(), relation_types = ["citations","references"], page_size = 1000, time_exec = False):
+    if time_exec: start_time = time.time()
+    query_urls = build_queries_url_for_related_papers(papers, relation_types, page_size)
+    print("{0} queries will be performed".format(len(query_urls)))
+    # perform queries
+    queries = (grequests.get(url) for url in query_urls)
+    responses = grequests.map(queries)
+    print("queries done")
+    # handle responses
+    found_ids = set()
+    for response in responses:
+        if not (response is None):
+            JSON_resp = response.json()
+            try:
+                if 'errCode' in JSON_resp:
+                    raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
+                else:
+                    cur_id = JSON_resp['request']['id']
+                    if 'referenceList' in JSON_resp:
+                        for paper in extract_LtdPaperDetails(JSON_resp['referenceList']['reference']):
+                            for word in set(paper.title.split(' ')):
+                                word = format_word(word, [".", ",", "?", "(", ")", ":"])
+                                if not word in word_count: word_count[word] = 1
+                                else: word_count[word] += 1
+                            found_ids.add(paper.id)
+                            if not paper.id in known_papers: known_papers[paper.id] = paper
+                            if not cur_id in known_relations: known_relations[cur_id] = set()
+                            known_relations[cur_id].add(paper.id)
+                    elif 'citationList' in JSON_resp:
+                        for paper in extract_LtdPaperDetails(JSON_resp['citationList']['citation']):
+                            for word in set(paper.title.split(' ')):
+                                word = format_word(word, [".", ",", "?", "(", ")", ":"])
+                                if not word in word_count: word_count[word] = 1
+                                else: word_count[word] += 1
+                            found_ids.add(paper.id)
+                            if not paper.id in known_papers:known_papers[paper.id] = paper
+                            if not paper.id in known_relations: known_relations[paper.id] = set()
+                            known_relations[paper.id].add(cur_id)
+            except JSONDecodeError:
+                print("Response could not be read")
+        response.close()
+    # return results
+    if time_exec : print("search_related_papers_list() : {0} seconds elapsed".format(time.time() - start_time))    
+    return { 'papers' : known_papers, 'relations' : known_relations, 'word_count' : word_count, 'found' : found_ids }
+    
+"""
+"""
+paper_relevance = (id, score)       <-- ordered ?
+paper_ltd_data = { id : LtdPaperDetails }
+relations = { id : [id] }
+to_explore = (id, score)       <--- ordered !
+"""
+"""
+def search_new_papers(initial_paper_src, initial_paper_id, relation_types = ["citations","references"] , max_nbr_of_papers_explored = 10, max_nbr_paper_per_step = 10, max_nbr_paper_to_explore = 500):
+    explored = set()
+    known_papers = dict()
+    known_relations = dict()
+    word_count = dict()
+    to_explore = []
+    next_step_papers = [(initial_paper_src, initial_paper_id)]
+    loop = True
+    while (len(explored) < max_nbr_of_papers_explored and loop):
+        # look for new papers
+        if verbose : print("Explore {0} new papers to find relations".format(len(next_step_papers)))
+        result = search_related_papers_for_list_of_papers(next_step_papers, known_papers = known_papers, known_relations = known_relations, word_count = word_count, relation_types = relation_types, time_exec = verbose)
+        explored.update(set(map(lambda x : x[1], next_step_papers)))
+        if verbose : print("{0} papers have been explored yet".format(len(explored)))
+        known_papers = result['papers']
+        known_relations = result['relations']
+        word_count = result['word_count']
+        if verbose :
+            print("Current known paper count {0}".format(len(known_papers)))
+            relations_count = 0
+            for key in known_relations:
+                relations_count += len(known_relations[key])
+            print("Current known relation count {0}".format(relations_count))
+        # update papers to explore
+        for new_paper_id in result['found'].difference(explored):
+            paper_id = new_paper_id
+            to_explore.append((paper_id, known_papers[paper_id].citedCount))
+        to_explore.sort(key = lambda x : x[1], reverse = True)
+        #to_explore = to_explore[:max_nbr_paper_to_explore]
+        loop = (len(to_explore) > 0)
+        print("Number of papers to be explored : {0}".format(len(to_explore)))
+        # choose papers to explore during next step
+        next_step_papers = list(map(lambda x : (known_papers[x[0]].src, x[0]), to_explore[:max_nbr_paper_per_step]))
+        to_explore = to_explore[max_nbr_paper_per_step:]
+    # return results
+    return { 'papers' : known_papers, 'relations' : known_relations }
+"""
+"""
+#test_results = search(["malaria"], time_exec = True)
+print ("{0} citations found".format(estimate_relation_hit_count("PMC", "PMC193660", "citations")))
+print ("{0} references found".format(estimate_relation_hit_count("MED", "10592235", "references")))
+rel_papers = search_related_papers("MED", "10592235", "references")
+print("found refs : {0}".format(len(rel_papers)))
+test_results = search(["malaria juin"], time_exec = True)
+print("found papers : {0}".format(len(test_results)))
+search_new_papers('MED','10592235', relation_types = ["references"], max_nbr_of_papers_explored = 200, max_nbr_paper_per_step = 10)
+"""

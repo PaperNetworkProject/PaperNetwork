@@ -7,7 +7,7 @@ class LtdPaperDetails:
     def _set_id_(self, id):
         if not isinstance(id, str):
             raise TypeError("self.__id : str expected, %s found" % type(id).__name__)
-        self.__id = id.encode('ascii', 'replace')
+        self.__id = id.encode('ascii', 'replace').decode("utf-8")
     
     id = property(_get_id_, _set_id_)
     # --- --- --- --- --- --- --- ---
@@ -17,7 +17,7 @@ class LtdPaperDetails:
     def _set_src_(self, src):
         if not isinstance(src, str):
             raise TypeError("self.__src : str expected, %s found" % type(src).__name__)
-        self.__src = src.encode('ascii', 'replace')
+        self.__src = src.encode('ascii', 'replace').decode("utf-8")
         
     src = property(_get_src_, _set_src_)
     # --- --- --- --- --- --- --- ---
@@ -27,7 +27,7 @@ class LtdPaperDetails:
     def _set_title_(self, title):
         if not isinstance(title, str):
             raise TypeError("self.__title : str expected, %s found" % type(title).__name__)
-        self.__title = title.encode('ascii', 'replace')
+        self.__title = title.encode('ascii', 'replace').decode("utf-8")
         
     title = property(_get_title_, _set_title_)
     # --- --- --- --- --- --- --- ---
@@ -70,7 +70,8 @@ class LtdPaperDetails:
         self.id = id                  # type : string
         self.src = src                # type : string
         self.title = title            # type : string
-        self.authors = authors        # type : [string]
+        self.authors = []        # type : [string]
+        for author in authors: self.authors.append(author)
         self.pubYear = pubYear        # type : int
         self.citedCount = citedCount  # type : int
 
@@ -79,3 +80,39 @@ class LtdPaperDetails:
         
     def __eq__(self, other):
         return self.__id == other.__id # compare two papers using their IDs
+        
+    def __cmp__(self, other):
+        return self.__citedCount.__cmp__(other.__citedCount)
+    
+    def __hash__(self):
+        return self.__id.__hash__()
+        
+    def to_JSON(self):
+        JSON_string = "{'id':\""+self.id+"\",'src':\""+self.src+"\",'title':\""+self.title+"\",'authors':["
+        for i in range(len(self.authors)):
+            JSON_string += "\""+self.authors[i]+"\""
+            if i < (len(self.authors) - 1): JSON_string += ","
+        JSON_string += "],'pubYear':"+str(self.pubYear)+",'citedCount':"+str(self.citedCount)+"}"
+        return JSON_string
+        
+    def to_list(self): 
+        return [
+            self.id,                 # type : string
+            self.src,               # type : string
+            self.title,           # type : string
+            self.authors,       # type : [string]
+            self.pubYear,       # type : int
+            self.citedCount  # type : int
+        ]
+        
+    def to_dict(self):
+        d = {
+            "id" : self.id,
+            "src" : self.src,
+            "title" : self.title,
+            "authors" : [],
+            "pubYear" : self.pubYear,
+            "citedCount" : self.citedCount
+        }
+        for author in self.authors: d["authors"].append(author)
+        return d

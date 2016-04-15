@@ -277,6 +277,19 @@ class MyServerProtocol(WebSocketServerProtocol):
         
         relations_to_weight = sum(list(map(lambda x : len(known_relations[x]), known_relations)))
         
+        indexes = dict()
+        
+        c = 0
+        for key in known_papers:
+            final_data['nodes'].append(known_papers[key].to_dict())
+            final_data['nodes'][len(final_data['nodes']) - 1]["index"] = c
+            indexes[known_papers[key].id] = c
+            final_data['nodes'][len(final_data['nodes']) - 1]["links"] = []
+            #if key in known_relations:
+            #    for relation in known_relations[key]:
+            #        final_data['nodes'][len(final_data['nodes']) - 1]["links"].append(relation)
+            c++
+        
         c = 0
         # Once we have the relations data for each papers, we weight the relations
         for paper1 in known_relations:
@@ -294,15 +307,9 @@ class MyServerProtocol(WebSocketServerProtocol):
                 for author1 in known_papers[paper1].authors:
                     for author2 in known_papers[paper2].authors:
                         if author1 == author2: weight += same_author_weight
-                final_data['links'].append([paper1, paper2, weight])
+                final_data['links'].append({"source" : indexes[paper1], "target" : indexes[paper2], "weight" : weight})
                 #if VERBOSE: print("\n. Weighted {0} / {1} relation(s)\n".format(relations_to_weight - c, relations_to_weight))                  
         
-        for key in known_papers:
-            final_data['nodes'].append(known_papers[key].to_dict())
-            final_data['nodes'][len(final_data['nodes']) - 1]["links"] = []
-            if key in known_relations:
-                for relation in known_relations[key]:
-                    final_data['nodes'][len(final_data['nodes']) - 1]["links"].append(relation)
 
         if TIMING: print("done in {0} seconds".format(time.time() - start_time))
 

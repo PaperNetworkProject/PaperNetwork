@@ -279,22 +279,26 @@ class MyServerProtocol(WebSocketServerProtocol):
         
         indexes = dict()
         
-        c = 0
+        # ADD papers to node
         for key in known_papers:
+            # add to final data
             final_data['nodes'].append(known_papers[key].to_dict())
-            final_data['nodes'][len(final_data['nodes']) - 1]["index"] = c
-            indexes[known_papers[key].id] = c
-            final_data['nodes'][len(final_data['nodes']) - 1]["links"] = []
-            #if key in known_relations:
-            #    for relation in known_relations[key]:
-            #        final_data['nodes'][len(final_data['nodes']) - 1]["links"].append(relation)
-            c++
+            index = len(final_data['nodes']) - 1
+            # set index
+            final_data['nodes'][index]["index"] = index
+            indexes[known_papers[key].id] = index
+            # init links
+            final_data['nodes'][index]["links"] = []
         
-        c = 0
-        # Once we have the relations data for each papers, we weight the relations
+        # set links for papers
+        for paper in final_data['nodes']:
+            if paper["id"] in known_relations:
+                for other_id in known_relations[paper["id"]]:
+                    paper["links"].append(other_id)
+        
+        # add links data
         for paper1 in known_relations:
             for paper2 in known_relations[paper1]:
-                c+=1
                 weight = 0
                 for word_p1 in list(map(normalize_word, known_papers[paper1].title.split(" "))):
                     for word_p2 in list(map(normalize_word, known_papers[paper2].title.split(" "))):
@@ -307,8 +311,7 @@ class MyServerProtocol(WebSocketServerProtocol):
                 for author1 in known_papers[paper1].authors:
                     for author2 in known_papers[paper2].authors:
                         if author1 == author2: weight += same_author_weight
-                final_data['links'].append({"source" : indexes[paper1], "target" : indexes[paper2], "weight" : weight})
-                #if VERBOSE: print("\n. Weighted {0} / {1} relation(s)\n".format(relations_to_weight - c, relations_to_weight))                  
+                final_data["links"].append({"source" : indexes[paper1], "target" : indexes[paper2], "weight" : weight})                 
         
 
         if TIMING: print("done in {0} seconds".format(time.time() - start_time))

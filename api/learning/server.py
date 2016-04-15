@@ -273,7 +273,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         
         if VERBOSE: print("\n- - - - - - - - - Producing final data (6) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
-        final_data = { 'papers' : dict(), 'links' : [] }    
+        final_data = { 'nodes' : [], 'links' : [] }    
         
         relations_to_weight = sum(list(map(lambda x : len(known_relations[x]), known_relations)))
         
@@ -298,11 +298,11 @@ class MyServerProtocol(WebSocketServerProtocol):
                 #if VERBOSE: print("\n. Weighted {0} / {1} relation(s)\n".format(relations_to_weight - c, relations_to_weight))                  
         
         for key in known_papers:
-            final_data['papers'][key] = known_papers[key].to_dict()
-            final_data['papers'][key]["links"] = []
+            final_data['nodes'].append(known_papers[key].to_dict())
+            final_data['nodes'][len(final_data['nodes']) - 1]["links"] = []
             if key in known_relations:
                 for relation in known_relations[key]:
-                    final_data['papers'][key]["links"].append(relation)
+                    final_data['nodes'][len(final_data['nodes']) - 1]["links"].append(relation)
 
         if TIMING: print("done in {0} seconds".format(time.time() - start_time))
 

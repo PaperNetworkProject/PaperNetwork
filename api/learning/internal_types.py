@@ -107,6 +107,7 @@ class LtdPaperDetails:
         
     def to_dict(self):
         d = {
+            "index" : self.id,
             "id" : self.id,
             "src" : self.src,
             "title" : self.title,

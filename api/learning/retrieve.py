@@ -18,14 +18,15 @@ epmc_endpoint = "http://www.ebi.ac.uk/europepmc/webservices/rest/"
 
 VERBOSE = False
 TIMING = True
-NO_CLIENT = True
+NO_CLIENT = False
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 if NO_CLIENT:
     client = open("sent_to_client.txt", "w")
-
     def send_to_client(message):
         client.write(message + "\n")
-
+    
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 def build_paper_network(initial_paper_id, reference_threshold = 2000, explored_threshold = 5000, papers_threshold = 5000, cur_step_ref_buffer_size = 10, cur_step_cit_buffer_size = 2, same_author_weight = 1):
@@ -534,5 +535,5 @@ def extract_LtdPaperDetails(JSON_list):
 
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
-build_paper_network("10592235", reference_threshold = 100, explored_threshold = -1, papers_threshold = 200, cur_step_ref_buffer_size = 10, cur_step_cit_buffer_size = 2, same_author_weight = 1)
+#build_paper_network("10592235", reference_threshold = 100, explored_threshold = -1, papers_threshold = 200, cur_step_ref_buffer_size = 10, cur_step_cit_buffer_size = 2, same_author_weight = 1)
 if NO_CLIENT: client.close()

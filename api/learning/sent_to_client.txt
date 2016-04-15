@@ -1,4 +1,27 @@
-{"phase":0,"papers_found":18,"papers_explored":1,"relations_found":17}
-{"phase":0,"papers_found":113,"papers_explored":11,"relations_found":129}
-{"phase":1,"papers_known":113,"papers_explored_for_terms":10}
-{"phase":1,"papers_known":113,"papers_explored_for_terms":20}
+{"phase": 0, "relations_found": 17, "papers_found": 18, "papers_explored": 1}
+{"phase": 0, "relations_found": 175, "papers_found": 140, "papers_explored": 18}
+{"phase": 0, "relations_found": 497, "papers_found": 375, "papers_explored": 43}
+{"phase": 1, "papers_explored_for_terms": 25, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 50, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 75, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 100, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 125, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 150, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 175, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 200, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 225, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 250, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 275, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 300, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 325, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 350, "papers_known": 375}
+{"phase": 1, "papers_explored_for_terms": 375, "papers_known": 375}
+{"phase": 3, "relations_found": 1110, "papers_found": 927, "papers_explored": 48}
+{"phase": 3, "relations_found": 1350, "papers_found": 1134, "papers_explored": 53}
+{"phase": 4, "relations_found": 1350, "papers_found": 1134, "papers_explored": 53}
+{"phase": 4, "relations_found": 1484, "papers_found": 1134, "papers_explored": 78}
+{"phase": 4, "relations_found": 1580, "papers_found": 1134, "papers_explored": 103}
+{"phase": 4, "relations_found": 1702, "papers_found": 1134, "papers_explored": 128}
+{"phase": 4, "relations_found": 1778, "papers_found": 1134, "papers_explored": 153}
+{"phase": 4, "relations_found": 1892, "papers_found": 1134, "papers_explored": 178}
+{"phase": 4, "relations_found": 2054, "papers_found": 1134, "papers_explored": 203}

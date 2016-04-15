@@ -11884,3 +11884,2988 @@ done in 1618.4685711860657 seconds
  .performing 10 API request(s) (attempt number 0)
  .queries performed in 0.17200970649719238 seconds
  .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701169967651367 seconds
+
+. Requested mined terms for 9190 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21401214599609375 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5730328559875488 seconds
+
+. Requested mined terms for 9200 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25701475143432617 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34401988983154297 seconds
+
+. Requested mined terms for 9210 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1760098934173584 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27001523971557617 seconds
+
+. Requested mined terms for 9220 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.44202542304992676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.358020544052124 seconds
+
+. Requested mined terms for 9230 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17901015281677246 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23201322555541992 seconds
+
+. Requested mined terms for 9240 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3740212917327881 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2800159454345703 seconds
+
+. Requested mined terms for 9250 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.358020544052124 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.44902563095092773 seconds
+
+. Requested mined terms for 9260 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40502309799194336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31001782417297363 seconds
+
+. Requested mined terms for 9270 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901132583618164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+
+. Requested mined terms for 9280 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19001102447509766 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601622581481934 seconds
+
+. Requested mined terms for 9290 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3840217590332031 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5790331363677979 seconds
+
+. Requested mined terms for 9300 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24801397323608398 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39202260971069336 seconds
+
+. Requested mined terms for 9310 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16600942611694336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3170182704925537 seconds
+
+. Requested mined terms for 9320 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910109519958496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24501395225524902 seconds
+
+. Requested mined terms for 9330 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.359020471572876 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31201791763305664 seconds
+
+. Requested mined terms for 9340 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21901249885559082 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3840219974517822 seconds
+
+. Requested mined terms for 9350 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31801819801330566 seconds
+
+. Requested mined terms for 9360 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701193809509277 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3080174922943115 seconds
+
+. Requested mined terms for 9370 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20501160621643066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.48102760314941406 seconds
+
+. Requested mined terms for 9380 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2800159454345703 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4500255584716797 seconds
+
+. Requested mined terms for 9390 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18201041221618652 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23001337051391602 seconds
+
+. Requested mined terms for 9400 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24401378631591797 seconds
+
+. Requested mined terms for 9410 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1980113983154297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800218105316162 seconds
+
+. Requested mined terms for 9420 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17701005935668945 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3370194435119629 seconds
+
+. Requested mined terms for 9430 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.237013578414917 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5420308113098145 seconds
+
+. Requested mined terms for 9440 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19601130485534668 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2520143985748291 seconds
+
+. Requested mined terms for 9450 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4580261707305908 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3460197448730469 seconds
+
+. Requested mined terms for 9460 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901132583618164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3080174922943115 seconds
+
+. Requested mined terms for 9470 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39902281761169434 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3780214786529541 seconds
+
+. Requested mined terms for 9480 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.47902750968933105 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38102197647094727 seconds
+
+. Requested mined terms for 9490 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35702037811279297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3340189456939697 seconds
+
+. Requested mined terms for 9500 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20501184463500977 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3950223922729492 seconds
+
+. Requested mined terms for 9510 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18401050567626953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31601810455322266 seconds
+
+. Requested mined terms for 9520 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22301292419433594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2500143051147461 seconds
+
+. Requested mined terms for 9530 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16400933265686035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720155715942383 seconds
+
+. Requested mined terms for 9540 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2110121250152588 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38802218437194824 seconds
+
+. Requested mined terms for 9550 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2000112533569336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800215721130371 seconds
+
+. Requested mined terms for 9560 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15700888633728027 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21401214599609375 seconds
+
+. Requested mined terms for 9570 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1980113983154297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601646423339844 seconds
+
+. Requested mined terms for 9580 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15100860595703125 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41202354431152344 seconds
+
+. Requested mined terms for 9590 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201251983642578 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2820160388946533 seconds
+
+. Requested mined terms for 9600 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.46202635765075684 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3200185298919678 seconds
+
+. Requested mined terms for 9610 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16800975799560547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3320188522338867 seconds
+
+. Requested mined terms for 9620 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2800159454345703 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29201674461364746 seconds
+
+. Requested mined terms for 9630 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17300987243652344 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720158100128174 seconds
+
+. Requested mined terms for 9640 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18101024627685547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+
+. Requested mined terms for 9650 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.42002415657043457 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3020174503326416 seconds
+
+. Requested mined terms for 9660 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1540088653564453 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6490371227264404 seconds
+
+. Requested mined terms for 9670 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34902000427246094 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2700154781341553 seconds
+
+. Requested mined terms for 9680 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18501067161560059 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35302019119262695 seconds
+
+. Requested mined terms for 9690 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34701991081237793 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101892471313477 seconds
+
+. Requested mined terms for 9700 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3820219039916992 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5210297107696533 seconds
+
+. Requested mined terms for 9710 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.352020263671875 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38802218437194824 seconds
+
+. Requested mined terms for 9720 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18401050567626953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26401519775390625 seconds
+
+. Requested mined terms for 9730 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4040229320526123 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31801819801330566 seconds
+
+. Requested mined terms for 9740 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101892471313477 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.8210470676422119 seconds
+
+. Requested mined terms for 9750 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5110292434692383 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4000227451324463 seconds
+
+. Requested mined terms for 9760 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17701005935668945 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30101728439331055 seconds
+
+. Requested mined terms for 9770 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3720211982727051 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28401637077331543 seconds
+
+. Requested mined terms for 9780 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19401121139526367 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+
+. Requested mined terms for 9790 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40102291107177734 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3430194854736328 seconds
+
+. Requested mined terms for 9800 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3190181255340576 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21601223945617676 seconds
+
+. Requested mined terms for 9810 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600895881652832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29001641273498535 seconds
+
+. Requested mined terms for 9820 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40302300453186035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240187168121338 seconds
+
+. Requested mined terms for 9830 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37902164459228516 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22701311111450195 seconds
+
+. Requested mined terms for 9840 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27701592445373535 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5070290565490723 seconds
+
+. Requested mined terms for 9850 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1980113983154297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.13800787925720215 seconds
+
+. Requested mined terms for 9860 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22901320457458496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31801819801330566 seconds
+
+. Requested mined terms for 9870 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910109519958496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3480198383331299 seconds
+
+. Requested mined terms for 9880 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33801937103271484 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2740156650543213 seconds
+
+. Requested mined terms for 9890 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32301855087280273 seconds
+ .performing 13 API request(s) (attempt number 0)
+ .queries performed in 1.31807541847229 seconds
+
+. Requested mined terms for 9900 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2610149383544922 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4280242919921875 seconds
+
+. Requested mined terms for 9910 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600895881652832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3710212707519531 seconds
+
+. Requested mined terms for 9920 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1520087718963623 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 1.2410709857940674 seconds
+
+. Requested mined terms for 9930 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16800975799560547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.45302581787109375 seconds
+
+. Requested mined terms for 9940 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37002110481262207 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2540144920349121 seconds
+
+. Requested mined terms for 9950 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21001195907592773 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24801421165466309 seconds
+
+. Requested mined terms for 9960 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1870107650756836 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2740156650543213 seconds
+
+. Requested mined terms for 9970 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.47902727127075195 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2110121250152588 seconds
+
+. Requested mined terms for 9980 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600895881652832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27901601791381836 seconds
+
+. Requested mined terms for 9990 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4260244369506836 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+
+. Requested mined terms for 10000 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16400933265686035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3350193500518799 seconds
+
+. Requested mined terms for 10010 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37002110481262207 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202073097229004 seconds
+
+. Requested mined terms for 10020 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5360305309295654 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3390192985534668 seconds
+
+. Requested mined terms for 10030 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2540144920349121 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2870166301727295 seconds
+
+. Requested mined terms for 10040 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24501395225524902 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101916313171387 seconds
+
+. Requested mined terms for 10050 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32501864433288574 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3590207099914551 seconds
+
+. Requested mined terms for 10060 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33801913261413574 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24601411819458008 seconds
+
+. Requested mined terms for 10070 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38802218437194824 seconds
+
+. Requested mined terms for 10080 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3630208969116211 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.365020751953125 seconds
+
+. Requested mined terms for 10090 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701193809509277 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3950223922729492 seconds
+
+. Requested mined terms for 10100 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1740100383758545 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4690268039703369 seconds
+
+. Requested mined terms for 10110 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20901203155517578 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4060232639312744 seconds
+
+. Requested mined terms for 10120 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201275825500488 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20801186561584473 seconds
+
+. Requested mined terms for 10130 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.47502708435058594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2560145854949951 seconds
+
+. Requested mined terms for 10140 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2950170040130615 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3740212917327881 seconds
+
+. Requested mined terms for 10150 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3650209903717041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29201674461364746 seconds
+
+. Requested mined terms for 10160 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300189971923828 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31401777267456055 seconds
+
+. Requested mined terms for 10170 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34201931953430176 seconds
+
+. Requested mined terms for 10180 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17901015281677246 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410196304321289 seconds
+
+. Requested mined terms for 10190 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3910224437713623 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40702319145202637 seconds
+
+. Requested mined terms for 10200 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18601059913635254 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 1.791102409362793 seconds
+
+. Requested mined terms for 10210 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330192565917969 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240184783935547 seconds
+
+. Requested mined terms for 10220 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.43602514266967773 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.350020170211792 seconds
+
+. Requested mined terms for 10230 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2760157585144043 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3130178451538086 seconds
+
+. Requested mined terms for 10240 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40302300453186035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2830162048339844 seconds
+
+. Requested mined terms for 10250 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600872039794922 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+
+. Requested mined terms for 10260 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901132583618164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5080292224884033 seconds
+
+. Requested mined terms for 10270 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4130237102508545 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3720211982727051 seconds
+
+. Requested mined terms for 10280 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31001782417297363 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5620322227478027 seconds
+
+. Requested mined terms for 10290 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19201111793518066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2950167655944824 seconds
+
+. Requested mined terms for 10300 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.371021032333374 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23601341247558594 seconds
+
+. Requested mined terms for 10310 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35302019119262695 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2590148448944092 seconds
+
+. Requested mined terms for 10320 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23801350593566895 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26001501083374023 seconds
+
+. Requested mined terms for 10330 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3740215301513672 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26801538467407227 seconds
+
+. Requested mined terms for 10340 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 3.239185333251953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300189971923828 seconds
+
+. Requested mined terms for 10350 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38302183151245117 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3260185718536377 seconds
+
+. Requested mined terms for 10360 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201205253601074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30101704597473145 seconds
+
+. Requested mined terms for 10370 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240184783935547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601646423339844 seconds
+
+. Requested mined terms for 10380 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21401238441467285 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24901413917541504 seconds
+
+. Requested mined terms for 10390 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22101283073425293 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2710154056549072 seconds
+
+. Requested mined terms for 10400 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3650209903717041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3780217170715332 seconds
+
+. Requested mined terms for 10410 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701193809509277 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3480198383331299 seconds
+
+. Requested mined terms for 10420 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2000114917755127 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930166721343994 seconds
+
+. Requested mined terms for 10430 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18201041221618652 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3020172119140625 seconds
+
+. Requested mined terms for 10440 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19301128387451172 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39402246475219727 seconds
+
+. Requested mined terms for 10450 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21601223945617676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4430253505706787 seconds
+
+. Requested mined terms for 10460 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36802101135253906 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36002039909362793 seconds
+
+. Requested mined terms for 10470 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3460197448730469 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+
+. Requested mined terms for 10480 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18201017379760742 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.352020263671875 seconds
+
+. Requested mined terms for 10490 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40702319145202637 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+
+. Requested mined terms for 10500 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4870278835296631 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930166721343994 seconds
+
+. Requested mined terms for 10510 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20301175117492676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4650266170501709 seconds
+
+. Requested mined terms for 10520 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.237013578414917 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24801421165466309 seconds
+
+. Requested mined terms for 10530 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201275825500488 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300187587738037 seconds
+
+. Requested mined terms for 10540 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18601059913635254 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.241013765335083 seconds
+
+. Requested mined terms for 10550 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201251983642578 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+
+. Requested mined terms for 10560 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1780102252960205 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30501747131347656 seconds
+
+. Requested mined terms for 10570 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201275825500488 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3210184574127197 seconds
+
+. Requested mined terms for 10580 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35502028465270996 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330192565917969 seconds
+
+. Requested mined terms for 10590 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34902000427246094 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+
+. Requested mined terms for 10600 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20301151275634766 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22701287269592285 seconds
+
+. Requested mined terms for 10610 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3060173988342285 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35102009773254395 seconds
+
+. Requested mined terms for 10620 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33601927757263184 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3500199317932129 seconds
+
+. Requested mined terms for 10630 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37302112579345703 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34401988983154297 seconds
+
+. Requested mined terms for 10640 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5220296382904053 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33601927757263184 seconds
+
+. Requested mined terms for 10650 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201229095458984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+
+. Requested mined terms for 10660 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18301057815551758 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.239013671875 seconds
+
+. Requested mined terms for 10670 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3780217170715332 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2760157585144043 seconds
+
+. Requested mined terms for 10680 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3870220184326172 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2260129451751709 seconds
+
+. Requested mined terms for 10690 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3220183849334717 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.45302605628967285 seconds
+
+. Requested mined terms for 10700 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36802101135253906 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.241013765335083 seconds
+
+. Requested mined terms for 10710 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23301315307617188 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240187168121338 seconds
+
+. Requested mined terms for 10720 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22501301765441895 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35702037811279297 seconds
+
+. Requested mined terms for 10730 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201229095458984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36602091789245605 seconds
+
+. Requested mined terms for 10740 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910109519958496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22301268577575684 seconds
+
+. Requested mined terms for 10750 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36802101135253906 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601646423339844 seconds
+
+. Requested mined terms for 10760 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26601529121398926 seconds
+
+. Requested mined terms for 10770 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6150350570678711 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24201393127441406 seconds
+
+. Requested mined terms for 10780 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17000985145568848 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3430194854736328 seconds
+
+. Requested mined terms for 10790 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3630208969116211 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240184783935547 seconds
+
+. Requested mined terms for 10800 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4460256099700928 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3630208969116211 seconds
+
+. Requested mined terms for 10810 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3450198173522949 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+
+. Requested mined terms for 10820 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24301385879516602 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910109519958496 seconds
+
+. Requested mined terms for 10830 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31801819801330566 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3260185718536377 seconds
+
+. Requested mined terms for 10840 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37002110481262207 seconds
+
+. Requested mined terms for 10850 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3960227966308594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29701685905456543 seconds
+
+. Requested mined terms for 10860 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501583099365234 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23601341247558594 seconds
+
+. Requested mined terms for 10870 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19601130485534668 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2870163917541504 seconds
+
+. Requested mined terms for 10880 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22701287269592285 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5070290565490723 seconds
+
+. Requested mined terms for 10890 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3960227966308594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27901601791381836 seconds
+
+. Requested mined terms for 10900 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.363020658493042 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2690153121948242 seconds
+
+. Requested mined terms for 10910 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1870107650756836 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3130178451538086 seconds
+
+. Requested mined terms for 10920 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15700888633728027 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2170124053955078 seconds
+
+. Requested mined terms for 10930 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2780158519744873 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3350193500518799 seconds
+
+. Requested mined terms for 10940 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4870278835296631 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32701873779296875 seconds
+
+. Requested mined terms for 10950 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16400933265686035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28801631927490234 seconds
+
+. Requested mined terms for 10960 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38102197647094727 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37302136421203613 seconds
+
+. Requested mined terms for 10970 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19001102447509766 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3850221633911133 seconds
+
+. Requested mined terms for 10980 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29201674461364746 seconds
+
+. Requested mined terms for 10990 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21901273727416992 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41002345085144043 seconds
+
+. Requested mined terms for 11000 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36402082443237305 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2950170040130615 seconds
+
+. Requested mined terms for 11010 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17000985145568848 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2910165786743164 seconds
+
+. Requested mined terms for 11020 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2150123119354248 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23101329803466797 seconds
+
+. Requested mined terms for 11030 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.44202542304992676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+
+. Requested mined terms for 11040 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22101259231567383 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2760157585144043 seconds
+
+. Requested mined terms for 11050 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2130122184753418 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2960169315338135 seconds
+
+. Requested mined terms for 11060 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16400933265686035 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32301855087280273 seconds
+
+. Requested mined terms for 11070 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29201674461364746 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410196304321289 seconds
+
+. Requested mined terms for 11080 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23001313209533691 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2650151252746582 seconds
+
+. Requested mined terms for 11090 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3320190906524658 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39002227783203125 seconds
+
+. Requested mined terms for 11100 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.45102572441101074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3210184574127197 seconds
+
+. Requested mined terms for 11110 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202073097229004 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3090176582336426 seconds
+
+. Requested mined terms for 11120 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.237013578414917 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24501395225524902 seconds
+
+. Requested mined terms for 11130 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2000112533569336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15300893783569336 seconds
+
+. Requested mined terms for 11140 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31801819801330566 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38102173805236816 seconds
+
+. Requested mined terms for 11150 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2000112533569336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3780217170715332 seconds
+
+. Requested mined terms for 11160 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4320247173309326 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501583099365234 seconds
+
+. Requested mined terms for 11170 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18301033973693848 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24901413917541504 seconds
+
+. Requested mined terms for 11180 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19601130485534668 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2630150318145752 seconds
+
+. Requested mined terms for 11190 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19401121139526367 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.354020357131958 seconds
+
+. Requested mined terms for 11200 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25301456451416016 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4320247173309326 seconds
+
+. Requested mined terms for 11210 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1760101318359375 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3210184574127197 seconds
+
+. Requested mined terms for 11220 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300187587738037 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30301737785339355 seconds
+
+. Requested mined terms for 11230 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1630091667175293 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27101564407348633 seconds
+
+. Requested mined terms for 11240 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18001008033752441 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24901413917541504 seconds
+
+. Requested mined terms for 11250 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3320190906524658 seconds
+
+. Requested mined terms for 11260 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.359020471572876 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930166721343994 seconds
+
+. Requested mined terms for 11270 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24501395225524902 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17901015281677246 seconds
+
+. Requested mined terms for 11280 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19601106643676758 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6420366764068604 seconds
+
+. Requested mined terms for 11290 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22701287269592285 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3190183639526367 seconds
+
+. Requested mined terms for 11300 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1610090732574463 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+
+. Requested mined terms for 11310 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4080233573913574 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+
+. Requested mined terms for 11320 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25701451301574707 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3500199317932129 seconds
+
+. Requested mined terms for 11330 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.358020544052124 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3020174503326416 seconds
+
+. Requested mined terms for 11340 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36402082443237305 seconds
+
+. Requested mined terms for 11350 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20901203155517578 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3350191116333008 seconds
+
+. Requested mined terms for 11360 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37702155113220215 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4690268039703369 seconds
+
+. Requested mined terms for 11370 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17101001739501953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2890164852142334 seconds
+
+. Requested mined terms for 11380 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20501160621643066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24601411819458008 seconds
+
+. Requested mined terms for 11390 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201229095458984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3350191116333008 seconds
+
+. Requested mined terms for 11400 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40702342987060547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2830162048339844 seconds
+
+. Requested mined terms for 11410 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18101024627685547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 1.5770902633666992 seconds
+
+. Requested mined terms for 11420 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4240241050720215 seconds
+
+. Requested mined terms for 11430 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201205253601074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.358020544052124 seconds
+
+. Requested mined terms for 11440 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33401918411254883 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29901719093322754 seconds
+
+. Requested mined terms for 11450 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36802124977111816 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23801374435424805 seconds
+
+. Requested mined terms for 11460 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36402082443237305 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410193920135498 seconds
+
+. Requested mined terms for 11470 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36402082443237305 seconds
+
+. Requested mined terms for 11480 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4170238971710205 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3390192985534668 seconds
+
+. Requested mined terms for 11490 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18301033973693848 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29001665115356445 seconds
+
+. Requested mined terms for 11500 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6330361366271973 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2980170249938965 seconds
+
+. Requested mined terms for 11510 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.471027135848999 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3710212707519531 seconds
+
+. Requested mined terms for 11520 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37702155113220215 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+
+. Requested mined terms for 11530 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5010285377502441 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38802218437194824 seconds
+
+. Requested mined terms for 11540 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760213851928711 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2830162048339844 seconds
+
+. Requested mined terms for 11550 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22901320457458496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3500199317932129 seconds
+
+. Requested mined terms for 11560 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3690211772918701 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35102009773254395 seconds
+
+. Requested mined terms for 11570 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19501090049743652 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720155715942383 seconds
+
+. Requested mined terms for 11580 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3280186653137207 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.44702577590942383 seconds
+
+. Requested mined terms for 11590 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16200923919677734 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35702037811279297 seconds
+
+. Requested mined terms for 11600 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3870220184326172 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.7230415344238281 seconds
+
+. Requested mined terms for 11610 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3910222053527832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501583099365234 seconds
+
+. Requested mined terms for 11620 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1890108585357666 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33401918411254883 seconds
+
+. Requested mined terms for 11630 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19201111793518066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34201955795288086 seconds
+
+. Requested mined terms for 11640 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202073097229004 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501559257507324 seconds
+
+. Requested mined terms for 11650 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101892471313477 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24801421165466309 seconds
+
+. Requested mined terms for 11660 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601646423339844 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26801538467407227 seconds
+
+. Requested mined terms for 11670 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3650209903717041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2690153121948242 seconds
+
+. Requested mined terms for 11680 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410193920135498 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4190237522125244 seconds
+
+. Requested mined terms for 11690 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2130122184753418 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25701475143432617 seconds
+
+. Requested mined terms for 11700 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760216236114502 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2000114917755127 seconds
+
+. Requested mined terms for 11710 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.42302417755126953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31001782417297363 seconds
+
+. Requested mined terms for 11720 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16800975799560547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24201393127441406 seconds
+
+. Requested mined terms for 11730 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2590148448944092 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22901320457458496 seconds
+
+. Requested mined terms for 11740 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18201065063476562 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800218105316162 seconds
+
+. Requested mined terms for 11750 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240184783935547 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2630150318145752 seconds
+
+. Requested mined terms for 11760 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760213851928711 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202073097229004 seconds
+
+. Requested mined terms for 11770 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201251983642578 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22101259231567383 seconds
+
+. Requested mined terms for 11780 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4460256099700928 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930166721343994 seconds
+
+. Requested mined terms for 11790 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20801186561584473 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6280357837677002 seconds
+
+. Requested mined terms for 11800 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19801115989685059 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37702155113220215 seconds
+
+. Requested mined terms for 11810 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5140292644500732 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25501441955566406 seconds
+
+. Requested mined terms for 11820 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21601223945617676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3210184574127197 seconds
+
+. Requested mined terms for 11830 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22301292419433594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39402246475219727 seconds
+
+. Requested mined terms for 11840 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.46202659606933594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.49002814292907715 seconds
+
+. Requested mined terms for 11850 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2960169315338135 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41402363777160645 seconds
+
+. Requested mined terms for 11860 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35102009773254395 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3740215301513672 seconds
+
+. Requested mined terms for 11870 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4840278625488281 seconds
+
+. Requested mined terms for 11880 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2130122184753418 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720155715942383 seconds
+
+. Requested mined terms for 11890 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760213851928711 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930169105529785 seconds
+
+. Requested mined terms for 11900 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901156425476074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33601903915405273 seconds
+
+. Requested mined terms for 11910 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3670210838317871 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21001219749450684 seconds
+
+. Requested mined terms for 11920 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201205253601074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+
+. Requested mined terms for 11930 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3650209903717041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3930225372314453 seconds
+
+. Requested mined terms for 11940 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18501067161560059 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1980113983154297 seconds
+
+. Requested mined terms for 11950 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901132583618164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3450198173522949 seconds
+
+. Requested mined terms for 11960 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.43802523612976074 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4610261917114258 seconds
+
+. Requested mined terms for 11970 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2170124053955078 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5190296173095703 seconds
+
+. Requested mined terms for 11980 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2820160388946533 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28401637077331543 seconds
+
+. Requested mined terms for 11990 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4450256824493408 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201275825500488 seconds
+
+. Requested mined terms for 12000 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201229095458984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3450198173522949 seconds
+
+. Requested mined terms for 12010 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 1.2320704460144043 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22901320457458496 seconds
+
+. Requested mined terms for 12020 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26201486587524414 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25501441955566406 seconds
+
+. Requested mined terms for 12030 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41802382469177246 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101892471313477 seconds
+
+. Requested mined terms for 12040 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18601083755493164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41002345085144043 seconds
+
+. Requested mined terms for 12050 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1780099868774414 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300189971923828 seconds
+
+. Requested mined terms for 12060 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410196304321289 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800218105316162 seconds
+
+. Requested mined terms for 12070 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32301855087280273 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5610320568084717 seconds
+
+. Requested mined terms for 12080 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17300987243652344 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.38102173805236816 seconds
+
+. Requested mined terms for 12090 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4350249767303467 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3460197448730469 seconds
+
+. Requested mined terms for 12100 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.14400839805603027 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28801655769348145 seconds
+
+. Requested mined terms for 12110 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26801538467407227 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.239013671875 seconds
+
+. Requested mined terms for 12120 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3340189456939697 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29201674461364746 seconds
+
+. Requested mined terms for 12130 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35102009773254395 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.241013765335083 seconds
+
+. Requested mined terms for 12140 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 21.01220178604126 seconds
+ .performing 2 API request(s) (attempt number 1)
+ .queries performed in 0.26401519775390625 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+
+. Requested mined terms for 12150 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20501160621643066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24701404571533203 seconds
+
+. Requested mined terms for 12160 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33601903915405273 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30501747131347656 seconds
+
+. Requested mined terms for 12170 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19901132583618164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41402363777160645 seconds
+
+. Requested mined terms for 12180 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2520143985748291 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34201979637145996 seconds
+
+. Requested mined terms for 12190 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760213851928711 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3430197238922119 seconds
+
+. Requested mined terms for 12200 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21401214599609375 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4060232639312744 seconds
+
+. Requested mined terms for 12210 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18301057815551758 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40302300453186035 seconds
+
+. Requested mined terms for 12220 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1870107650756836 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37002134323120117 seconds
+
+. Requested mined terms for 12230 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17100977897644043 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28401613235473633 seconds
+
+. Requested mined terms for 12240 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3260185718536377 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25501465797424316 seconds
+
+. Requested mined terms for 12250 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37002110481262207 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2850162982940674 seconds
+
+. Requested mined terms for 12260 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28601646423339844 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501559257507324 seconds
+
+. Requested mined terms for 12270 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701193809509277 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34401965141296387 seconds
+
+. Requested mined terms for 12280 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40502309799194336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28101611137390137 seconds
+
+. Requested mined terms for 12290 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1760101318359375 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.44202518463134766 seconds
+
+. Requested mined terms for 12300 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29401707649230957 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.962054967880249 seconds
+
+. Requested mined terms for 12310 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20101141929626465 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4870278835296631 seconds
+
+. Requested mined terms for 12320 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39402246475219727 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36602091789245605 seconds
+
+. Requested mined terms for 12330 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3630208969116211 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3760213851928711 seconds
+
+. Requested mined terms for 12340 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3450198173522949 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27901601791381836 seconds
+
+. Requested mined terms for 12350 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4210240840911865 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29701685905456543 seconds
+
+. Requested mined terms for 12360 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18501067161560059 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3040173053741455 seconds
+
+. Requested mined terms for 12370 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 21.022202253341675 seconds
+ .performing 1 API request(s) (attempt number 1)
+ .queries performed in 0.2260129451751709 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.37502145767211914 seconds
+
+. Requested mined terms for 12380 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3130178451538086 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2950167655944824 seconds
+
+. Requested mined terms for 12390 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26001501083374023 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3090176582336426 seconds
+
+. Requested mined terms for 12400 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600919723510742 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3240184783935547 seconds
+
+. Requested mined terms for 12410 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2110121250152588 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2170124053955078 seconds
+
+. Requested mined terms for 12420 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35702037811279297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3540201187133789 seconds
+
+. Requested mined terms for 12430 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15500879287719727 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26001477241516113 seconds
+
+. Requested mined terms for 12440 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1630091667175293 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2630150318145752 seconds
+
+. Requested mined terms for 12450 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25501441955566406 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3040173053741455 seconds
+
+. Requested mined terms for 12460 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.41602396965026855 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3690211772918701 seconds
+
+. Requested mined terms for 12470 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18401050567626953 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3080177307128906 seconds
+
+. Requested mined terms for 12480 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701169967651367 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3850221633911133 seconds
+
+. Requested mined terms for 12490 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27301573753356934 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.29901695251464844 seconds
+
+. Requested mined terms for 12500 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4040229320526123 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.25701475143432617 seconds
+
+. Requested mined terms for 12510 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20801210403442383 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.28101611137390137 seconds
+
+. Requested mined terms for 12520 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.17300987243652344 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36602091789245605 seconds
+
+. Requested mined terms for 12530 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.43802499771118164 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4370248317718506 seconds
+
+. Requested mined terms for 12540 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23201322555541992 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.47702717781066895 seconds
+
+. Requested mined terms for 12550 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21801233291625977 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2890167236328125 seconds
+
+. Requested mined terms for 12560 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3390192985534668 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 21.016201972961426 seconds
+ .performing 1 API request(s) (attempt number 1)
+ .queries performed in 0.30701756477355957 seconds
+
+. Requested mined terms for 12570 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23601341247558594 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3480198383331299 seconds
+
+. Requested mined terms for 12580 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720155715942383 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3080174922943115 seconds
+
+. Requested mined terms for 12590 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.363020658493042 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.8840506076812744 seconds
+
+. Requested mined terms for 12600 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.367020845413208 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23501348495483398 seconds
+
+. Requested mined terms for 12610 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.49402809143066406 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.241013765335083 seconds
+
+. Requested mined terms for 12620 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15800905227661133 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26201486587524414 seconds
+
+. Requested mined terms for 12630 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1760098934173584 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35502028465270996 seconds
+
+. Requested mined terms for 12640 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20101141929626465 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2980170249938965 seconds
+
+. Requested mined terms for 12650 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1780102252960205 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5340304374694824 seconds
+
+. Requested mined terms for 12660 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35502028465270996 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39902281761169434 seconds
+
+. Requested mined terms for 12670 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24301385879516602 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3110177516937256 seconds
+
+. Requested mined terms for 12680 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1980113983154297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.365020751953125 seconds
+
+. Requested mined terms for 12690 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18801069259643555 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27501559257507324 seconds
+
+. Requested mined terms for 12700 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24901413917541504 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+
+. Requested mined terms for 12710 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19501137733459473 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3850219249725342 seconds
+
+. Requested mined terms for 12720 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2110118865966797 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.363020658493042 seconds
+
+. Requested mined terms for 12730 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202073097229004 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26001501083374023 seconds
+
+. Requested mined terms for 12740 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3630208969116211 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24801421165466309 seconds
+
+. Requested mined terms for 12750 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22701287269592285 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3190183639526367 seconds
+
+. Requested mined terms for 12760 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20701193809509277 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26801514625549316 seconds
+
+. Requested mined terms for 12770 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2040116786956787 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4210240840911865 seconds
+
+. Requested mined terms for 12780 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2240128517150879 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27301573753356934 seconds
+
+. Requested mined terms for 12790 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5380308628082275 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30501723289489746 seconds
+
+. Requested mined terms for 12800 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1540088653564453 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2830159664154053 seconds
+
+. Requested mined terms for 12810 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3870220184326172 seconds
+
+. Requested mined terms for 12820 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800215721130371 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.40702342987060547 seconds
+
+. Requested mined terms for 12830 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15500879287719727 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3260185718536377 seconds
+
+. Requested mined terms for 12840 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4130234718322754 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3430197238922119 seconds
+
+. Requested mined terms for 12850 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910109519958496 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201275825500488 seconds
+
+. Requested mined terms for 12860 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16900968551635742 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3910222053527832 seconds
+
+. Requested mined terms for 12870 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3520200252532959 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23401331901550293 seconds
+
+. Requested mined terms for 12880 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34201955795288086 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.597034215927124 seconds
+
+. Requested mined terms for 12890 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36202049255371094 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23601365089416504 seconds
+
+. Requested mined terms for 12900 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.46402645111083984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3330190181732178 seconds
+
+. Requested mined terms for 12910 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22001266479492188 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23301339149475098 seconds
+
+. Requested mined terms for 12920 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2240128517150879 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4110233783721924 seconds
+
+. Requested mined terms for 12930 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24201393127441406 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2850162982940674 seconds
+
+. Requested mined terms for 12940 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23201322555541992 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32701873779296875 seconds
+
+. Requested mined terms for 12950 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34902000427246094 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.8150465488433838 seconds
+
+. Requested mined terms for 12960 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21801257133483887 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.365020751953125 seconds
+
+. Requested mined terms for 12970 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21201229095458984 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.365020751953125 seconds
+
+. Requested mined terms for 12980 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24401378631591797 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.30701756477355957 seconds
+
+. Requested mined terms for 12990 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24501395225524902 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2280130386352539 seconds
+
+. Requested mined terms for 13000 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.356020450592041 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.36802101135253906 seconds
+
+. Requested mined terms for 13010 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19001102447509766 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22201251983642578 seconds
+
+. Requested mined terms for 13020 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1760101318359375 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4560260772705078 seconds
+
+. Requested mined terms for 13030 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18201041221618652 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23601341247558594 seconds
+
+. Requested mined terms for 13040 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2240128517150879 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23301315307617188 seconds
+
+. Requested mined terms for 13050 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20501160621643066 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2930166721343994 seconds
+
+. Requested mined terms for 13060 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2820160388946533 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.358020544052124 seconds
+
+. Requested mined terms for 13070 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3670210838317871 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19701099395751953 seconds
+
+. Requested mined terms for 13080 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3980228900909424 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.35102009773254395 seconds
+
+. Requested mined terms for 13090 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20301151275634766 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2500143051147461 seconds
+
+. Requested mined terms for 13100 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1910111904144287 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24301385879516602 seconds
+
+. Requested mined terms for 13110 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.19201087951660156 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31201791763305664 seconds
+
+. Requested mined terms for 13120 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 1.2510714530944824 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.6550374031066895 seconds
+
+. Requested mined terms for 13130 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.5010287761688232 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4060232639312744 seconds
+
+. Requested mined terms for 13140 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2870163917541504 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3280186653137207 seconds
+
+. Requested mined terms for 13150 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22301268577575684 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3170180320739746 seconds
+
+. Requested mined terms for 13160 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600895881652832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18301057815551758 seconds
+
+. Requested mined terms for 13170 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15700888633728027 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2980170249938965 seconds
+
+. Requested mined terms for 13180 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3410193920135498 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.42502450942993164 seconds
+
+. Requested mined terms for 13190 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23301339149475098 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2720153331756592 seconds
+
+. Requested mined terms for 13200 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4710268974304199 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3800218105316162 seconds
+
+. Requested mined terms for 13210 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16600942611694336 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21001195907592773 seconds
+
+. Requested mined terms for 13220 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32901883125305176 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4000229835510254 seconds
+
+. Requested mined terms for 13230 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.23201322555541992 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.27901601791381836 seconds
+
+. Requested mined terms for 13240 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24001383781433105 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33101868629455566 seconds
+
+. Requested mined terms for 13250 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.39002227783203125 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32001829147338867 seconds
+
+. Requested mined terms for 13260 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3300187587738037 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2500143051147461 seconds
+
+. Requested mined terms for 13270 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.20301175117492676 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24301385879516602 seconds
+
+. Requested mined terms for 13280 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15600895881652832 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2710154056549072 seconds
+
+. Requested mined terms for 13290 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32301831245422363 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.21401214599609375 seconds
+
+. Requested mined terms for 13300 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.16800951957702637 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34201955795288086 seconds
+
+. Requested mined terms for 13310 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15800905227661133 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.22101259231567383 seconds
+
+. Requested mined terms for 13320 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31401801109313965 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3220183849334717 seconds
+
+. Requested mined terms for 13330 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18501067161560059 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3870222568511963 seconds
+
+. Requested mined terms for 13340 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.33401918411254883 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3580203056335449 seconds
+
+. Requested mined terms for 13350 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.1650092601776123 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.32701873779296875 seconds
+
+. Requested mined terms for 13360 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4240241050720215 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.34901976585388184 seconds
+
+. Requested mined terms for 13370 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.18601059913635254 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.24901437759399414 seconds
+
+. Requested mined terms for 13380 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.31601810455322266 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.26001501083374023 seconds
+
+. Requested mined terms for 13390 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.14300823211669922 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.7580432891845703 seconds
+
+. Requested mined terms for 13400 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.4370250701904297 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.3390192985534668 seconds
+
+. Requested mined terms for 13410 / 13428 paper(s)
+
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.15100860595703125 seconds
+ .performing 10 API request(s) (attempt number 0)
+ .queries performed in 0.2780160903930664 seconds
+
+. Requested mined terms for 13420 / 13428 paper(s)
+
+ .performing 8 API request(s) (attempt number 0)
+ .queries performed in 0.16600966453552246 seconds
+ .performing 8 API request(s) (attempt number 0)
+ .queries performed in 0.41602373123168945 seconds
+
+. Requested mined terms for 13428 / 13428 paper(s)
+
+done in 971.8415861129761 seconds
+
+- - - - - - - - - Producing final data (6) - - - - - - - - -
+
+done in 107.74016237258911 seconds
+
+TOTAL: 3203 secondes = 53 minutes

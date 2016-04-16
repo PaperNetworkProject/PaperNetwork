@@ -31,7 +31,7 @@ class MyServerProtocol(WebSocketServerProtocol):
        
        if(payload.decode('utf8')== "start"):
             self.sendMessage(payload,isBinary)
-            self.build_paper_network(initial_paper_id = "10592235", reference_threshold = 200, explored_threshold = -1, papers_threshold = 1000, cur_step_ref_buffer_size = 25, cur_step_cit_buffer_size = 5, mined_terms_search_buffer_size = 25, same_author_weight = 1)
+            self.build_paper_network(initial_paper_id = "10592235", reference_threshold = 100, explored_threshold = -1, papers_threshold = 300, cur_step_ref_buffer_size = 25, cur_step_cit_buffer_size = 1, mined_terms_search_buffer_size = 25, same_author_weight = 1)
 
         
 
@@ -313,6 +313,9 @@ class MyServerProtocol(WebSocketServerProtocol):
                         if author1 == author2: weight += same_author_weight
                 final_data["links"].append({"source" : indexes[paper1], "target" : indexes[paper2], "weight" : weight})                 
         
+        max_weight = max(list(map(lambda link: link["weight"], final_data["links"])))
+        for link in final_data["links"]:
+            link["weight"] = link["weight"] / max_weight
 
         if TIMING: print("done in {0} seconds".format(time.time() - start_time))
 
@@ -321,7 +324,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         file_name = "papers_init{0}-{1}_ref{2}_expl{3}_find{4}.json".format(initial_paper_src, initial_paper_id, str(reference_threshold), str(explored_threshold), str(papers_threshold))
         
         with open(file_name, 'w') as outfile:
-            json.dump(final_data, outfile)
+            outfile.write(json.dumps(final_data, indent=4, sort_keys=True))
 
         self.send(json.dumps(final_data))
         

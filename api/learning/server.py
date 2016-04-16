@@ -294,7 +294,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         for paper in final_data['nodes']:
             if paper["id"] in known_relations:
                 for other_id in known_relations[paper["id"]]:
-                    paper["links"].append(other_id)
+                    paper["links"].append(indexes[other_id])
         
         # add links data
         for paper1 in known_relations:

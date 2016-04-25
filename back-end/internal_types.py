@@ -1,3 +1,5 @@
+import json
+
 class LtdPaperDetails:
     """  """
     # --- --- --- --- --- --- --- ---
@@ -10,6 +12,16 @@ class LtdPaperDetails:
         self.__id = id.encode('ascii', 'replace').decode("utf-8")
     
     id = property(_get_id_, _set_id_)
+    # --- --- --- --- --- --- --- ---
+    def _get_abstract_(self):
+        return self.__abstract
+        
+    def _set_abstract_(self, abstract):
+        if not isinstance(abstract, str):
+            raise TypeError("self.__abstract : str expected, %s found" % type(abstract).__name__)
+        self.__abstract = abstract.encode('ascii', 'replace').decode("utf-8")
+    
+    abstract = property(_get_abstract_, _set_abstract_)
     # --- --- --- --- --- --- --- ---
     def _get_src_(self):
         return self.__src
@@ -66,7 +78,7 @@ class LtdPaperDetails:
     citedCount = property(_get_citedCount_, _set_citedCount_)
     # --- --- --- --- --- --- --- ---
     
-    def __init__(self, id = "", src = "", title = "", authors = [], pubYear = -1, citedCount = -1):
+    def __init__(self, id = "", src = "", title = "", authors = [], pubYear = -1, citedCount = -1, abstract = ""):
         self.id = id                  # type : string
         self.src = src                # type : string
         self.title = title            # type : string
@@ -74,6 +86,7 @@ class LtdPaperDetails:
         for author in authors: self.authors.append(author)
         self.pubYear = pubYear        # type : int
         self.citedCount = citedCount  # type : int
+        self.abstract = abstract
 
     def __str__(self):
         return "[ id : {0}, title : {1}, year : {2}, citations {3}]".format(self.__id, self.__title, str(self.__pubYear), str(self.__citedCount))
@@ -88,18 +101,14 @@ class LtdPaperDetails:
         return self.__id.__hash__()
         
     def to_JSON(self):
-        JSON_string = "{'id':\""+self.id+"\",'src':\""+self.src+"\",'title':\""+self.title+"\",'authors':["
-        for i in range(len(self.authors)):
-            JSON_string += "\""+self.authors[i]+"\""
-            if i < (len(self.authors) - 1): JSON_string += ","
-        JSON_string += "],'pubYear':"+str(self.pubYear)+",'citedCount':"+str(self.citedCount)+"}"
-        return JSON_string
+        return json.dumps(self.to_dict())
         
     def to_list(self): 
         return [
             self.id,                 # type : string
             self.src,               # type : string
             self.title,           # type : string
+            self.abstract,
             self.authors,       # type : [string]
             self.pubYear,       # type : int
             self.citedCount  # type : int
@@ -112,7 +121,8 @@ class LtdPaperDetails:
             "title" : self.title,
             "authors" : [],
             "pubYear" : self.pubYear,
-            "citedCount" : self.citedCount
+            "citedCount" : self.citedCount,
+            "abstract" : self.abstract
         }
         for author in self.authors: d["authors"].append(author)
         return d

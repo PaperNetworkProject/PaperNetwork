@@ -9,6 +9,7 @@ import pprint
 import math
 from internal_types import *
 import sys
+from collections import Counter
 
 epmc_endpoint = "http://www.ebi.ac.uk/europepmc/webservices/rest/"
 
@@ -105,9 +106,9 @@ class MyServerProtocol(WebSocketServerProtocol):
    
     # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
-    def build_paper_network(self, initial_paper_id, reference_threshold = 2000, explored_threshold = 5000, papers_threshold = 5000, cur_step_ref_buffer_size = 10, cur_step_cit_buffer_size = 2, mined_terms_search_buffer_size = 10, same_author_weight = 1):
-        (known_papers, known_relations, word_count) = dict(), dict(), dict()
-        (explored, to_explore) = set(), []
+    def build_paper_network(self, initial_paper_id, reference_threshold = 2000, explored_threshold = 5000, papers_threshold = 5000, cur_step_ref_buffer_size = 10, cur_step_cit_buffer_size = 2, mined_terms_search_buffer_size = 10, abstract_buffer_size = 25, same_author_weight = 1):
+        (known_papers, known_relations, word_count, word_frequency) = dict(), dict(), dict(), dict()
+        (explored, to_explore, retrieved_abstracts) = set(), [], set()
         stop_looking = False
         if TIMING: total_time = 0
         # find initial paper
@@ -130,6 +131,23 @@ class MyServerProtocol(WebSocketServerProtocol):
         while (len(known_papers) < reference_threshold) and (not stop_looking):
             # Get more papers related to already known papers
             result = search_related_papers(related_to = cur_step_papers, look_for = ["references"], request_page_size = 1000, known_papers = known_papers, known_relations = known_relations, word_count = word_count)
+            # Retrieve abstracts for all known papers
+            abstracts_to_retrieve = list(filter(lambda id : not (id in retrieved_abstracts), list(known_papers.keys())))
+            if VERBOSITY > 1: print("..Retrieve abstracts for known papers")
+            while len(abstracts_to_retrieve) > 0:
+                abstracts = get_abstracts(abstracts_to_retrieve[:abstract_buffer_size])
+                for id in abstracts_to_retrieve[:abstract_buffer_size]: retrieved_abstracts.add(id)
+                abstracts_to_retrieve = abstracts_to_retrieve[abstract_buffer_size:]
+                for id in abstracts:
+                    word_frequency[id] = dict()
+                    known_papers[id].abstract = abstracts[id]
+                    words_list = list(map(normalize_word, abstracts[id].split(" ")))
+                    if STOP_WORDS: words_list = list(filter(lambda word : not (word in stop_words_set), words_list))
+                    if len(words_list) > 0:
+                        words_count = Counter(words_list)
+                        for word in word_count:
+                            word_frequency[id][word] = words_count[word] / len(words_list)
+                if VERBOSITY > 1: print("\n. Requested abstracts for {0} / {1} paper(s)\n".format(len(retrieved_abstracts), len(known_papers)))
             # Update our variables
             explored.update(set(map(lambda x : x[1], cur_step_papers)))
             known_papers = result['papers']
@@ -240,6 +258,22 @@ class MyServerProtocol(WebSocketServerProtocol):
         # Get more papers related to already known papers
         while (len(known_papers) < papers_threshold) and (not stop_looking):
             result = search_related_papers(related_to = referenced_papers_to_explore[:cur_step_cit_buffer_size], look_for = ["citations", "references"], request_page_size = 1000, known_papers = known_papers, known_relations = known_relations, word_count = word_count)
+            # Retrieve abstracts for all known papers
+            abstracts_to_retrieve = list(filter(lambda id : not (id in retrieved_abstracts), list(known_papers.keys())))
+            if VERBOSITY > 1: print("..Retrieve abstracts for known papers")
+            while len(abstracts_to_retrieve) > 0:
+                abstracts = get_abstracts(abstracts_to_retrieve[:abstract_buffer_size])
+                for id in abstracts_to_retrieve[:abstract_buffer_size]: retrieved_abstracts.add(id)
+                abstracts_to_retrieve = abstracts_to_retrieve[abstract_buffer_size:]
+                for id in abstracts:
+                    known_papers[id].abstract = abstracts[id]
+                    words_list = list(map(normalize_word, abstracts[id].split(" ")))
+                    if STOP_WORDS: words_list = list(filter(lambda word : not (word in stop_words_set), words_list))
+                    if len(words_list) > 0:                    
+                        words_count = Counter(words_list)
+                        for word in word_count:
+                            word_frequency[id][word] = words_count[word] / len(words_list)
+                if VERBOSITY > 1: print("\n. Requested abstracts for {0} / {1} paper(s)\n".format(len(retrieved_abstracts), len(known_papers)))
             # Update our variables
             explored.update(set(referenced_papers_to_explore[:cur_step_cit_buffer_size]))
             referenced_papers_to_explore = referenced_papers_to_explore[cur_step_cit_buffer_size:]
@@ -410,7 +444,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         self.send(json.dumps(final_data))
         
         if TIMING: print("\ntotal execution time for the search: {0} seconds".format(total_time))
-        if VERBOSITY > 0: print("--- FINISHED --- \n\n - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ -\n -III-III-III-III-III-III-III-III-III-III-III-III-III-III-III-\n - v - v - v - v - v - v - v - v - v - v - v - v - v - v - v -\n")
+        if VERBOSITY > 0: print("\n - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ -\n -III-III-III-III-III-III-III-III-III-III-III-III-III-III-III-\n - v - v - v - v - v - v - v - v - v - v - v - v - v - v - v -\n")
         
         return final_data
         
@@ -456,7 +490,9 @@ def search_related_papers(related_to, look_for, request_page_size, known_papers,
                     #if paper.citedCount > 0:
                     # Update found_ids and known_papers
                     found_ids.add(paper.id)
-                    if not (paper.id in known_papers): known_papers[paper.id] = paper
+                    if not (paper.id in known_papers):
+                        # paper.abstract = get_abstract(paper.id)
+                        known_papers[paper.id] = paper
                     # Update known_relations
                     if (look_for_ref):
                         if not cur_id in known_relations: known_relations[cur_id] = set()
@@ -469,6 +505,49 @@ def search_related_papers(related_to, look_for, request_page_size, known_papers,
                         if not word in word_count: word_count[word] = 1
                         else: word_count[word] += 1
     return { 'papers' : known_papers, 'relations' : known_relations, 'word_count' : word_count, 'found' : found_ids }
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+def get_abstract(paper_id):
+    # set up queries
+    query_base_url = epmc_endpoint + "search?format=json&resulttype=core&query=" + str(paper_id)
+    query_urls = set()
+    query_urls.add(query_base_url)
+    # perform queries
+    responses = perform_queries(query_urls, max_retry_iter = 3)
+    # handle responses
+    abstract = ""
+    for JSON_resp in responses:
+        if 'errCode' in JSON_resp:
+            raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
+        elif 'resultList' in JSON_resp:
+            for paper in JSON_resp['resultList']['result']:
+                if (paper["id"] == paper_id) and ("abstractText" in paper):
+                    abstract = paper["abstractText"]
+    # return papers found
+    return abstract
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+def get_abstracts(paper_ids):
+    # set up queries
+    query_base_url = epmc_endpoint + "search?format=json&resulttype=core&query="
+    query_urls = set(list(map(lambda id : query_base_url + str(id), paper_ids)))
+    # perform queries
+    responses = perform_queries(query_urls, max_retry_iter = 3)
+    # handle responses
+    abstracts = dict()
+    for JSON_resp in responses:
+        if 'errCode' in JSON_resp:
+            raise ValueError("epmc api error : {0} - {1}".format(JSON_resp['errCode'], JSON_resp['errMsg']))
+        elif 'resultList' in JSON_resp:
+            cur_id = JSON_resp["request"]["query"]
+            if not cur_id in abstracts:
+                for paper in JSON_resp['resultList']['result']:
+                    if (paper["id"] == cur_id) and ("abstractText" in paper):
+                        abstracts[cur_id] = paper["abstractText"]
+    # return papers found
+    return abstracts
 
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 

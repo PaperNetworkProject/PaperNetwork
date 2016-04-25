@@ -8,15 +8,75 @@ import json
 import pprint
 import math
 from internal_types import *
+import sys
 
 epmc_endpoint = "http://www.ebi.ac.uk/europepmc/webservices/rest/"
 
-VERBOSE = True
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+VERBOSITY = 1
 TIMING = True
 NO_CLIENT = False
 DUMP_FILE = False
+STOP_WORDS = True
+reference_threshold = 100
+explored_threshold = -1
+papers_threshold = 300
+cur_step_ref_buffer_size = 25
+cur_step_cit_buffer_size = 1
+mined_terms_search_buffer_size = 25
+same_author_weight = 1
+
+def isfloat(value):
+    try:
+        float(value)
+        return True
+    except:
+        return False
+
+def read_config():
+    global VERBOSITY
+    global TIMING
+    global NO_CLIENT
+    global DUMP_FILE
+    global STOP_WORDS
+    global reference_threshold
+    global explored_threshold
+    global papers_threshold
+    global cur_step_ref_buffer_size
+    global cur_step_cit_buffer_size
+    global mined_terms_search_buffer_size
+    global same_author_weight
+    # read config file
+    if VERBOSITY > 0: print("Reading config file...")
+    with open("server.conf", 'r') as config_file:
+        for line in config_file:
+            # format line
+            for char in "\n \t":
+                line = line.replace(char, "")
+            if VERBOSITY > 2: print(" .read: {0}".format(line))
+            # avoid comments
+            if (len(line) > 0) and (line[0] != '#'):
+                param = line.split("=", 1)
+                if (param[0] == "VERBOSITY"): VERBOSITY = int(param[1])
+                elif (param[0] == "TIMING") and (param[1] == "True"): TIMING = True
+                elif (param[0] == "NO_CLIENT") and (param[1] == "True"): NO_CLIENT = True
+                elif (param[0] == "DUMP_FILE") and (param[1] == "True"): DUMP_FILE = True
+                elif (param[0] == "STOP_WORDS") and (param[1] == "True"): STOP_WORDS = True
+                elif (param[0] == "reference_threshold"): reference_threshold = int(param[1])
+                elif (param[0] == "explored_threshold"): explored_threshold = int(param[1])
+                elif (param[0] == "papers_threshold"): papers_threshold = int(param[1])
+                elif (param[0] == "cur_step_ref_buffer_size"): cur_step_ref_buffer_size = int(param[1])
+                elif (param[0] == "cur_step_cit_buffer_size"): cur_step_cit_buffer_size = int(param[1])
+                elif (param[0] == "mined_terms_search_buffer_size"): mined_terms_search_buffer_size = int(param[1])
+                elif (param[0] == "same_author_weight"): same_author_weight = int(param[1])
+                if VERBOSITY > 1: print(" .config: {0} = {1}".format(param[0], param[1]))
+    if VERBOSITY > 0: print("Done\n")
 
 if NO_CLIENT: client = open("dumps/sent_to_client.txt", "w")
+if STOP_WORDS: stop_words_set = set()
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 class MyServerProtocol(WebSocketServerProtocol):
 
@@ -29,8 +89,9 @@ class MyServerProtocol(WebSocketServerProtocol):
 
     def onMessage(self, payload, isBinary):
        print("received: {0}".format(payload.decode('utf8')))
+       read_config()
        self.sendMessage(payload,isBinary)
-       self.build_paper_network(initial_paper_id = payload.decode('utf8'), reference_threshold = 100, explored_threshold = -1, papers_threshold = 300, cur_step_ref_buffer_size = 25, cur_step_cit_buffer_size = 1, mined_terms_search_buffer_size = 25, same_author_weight = 1)
+       self.build_paper_network(initial_paper_id = payload.decode('utf8'), reference_threshold = reference_threshold, explored_threshold = explored_threshold, papers_threshold = papers_threshold, cur_step_ref_buffer_size = cur_step_ref_buffer_size, cur_step_cit_buffer_size = cur_step_cit_buffer_size, mined_terms_search_buffer_size = mined_terms_search_buffer_size, same_author_weight = same_author_weight)
 
         
 
@@ -48,6 +109,7 @@ class MyServerProtocol(WebSocketServerProtocol):
         (known_papers, known_relations, word_count) = dict(), dict(), dict()
         (explored, to_explore) = set(), []
         stop_looking = False
+        if TIMING: total_time = 0
         # find initial paper
         result = search_papers([initial_paper_id])
         for res in result:
@@ -55,14 +117,14 @@ class MyServerProtocol(WebSocketServerProtocol):
                 initial_paper_src = res.src
                 known_papers[initial_paper_id] = res
         if not initial_paper_id in known_papers:
-            if VERBOSE: print ("could not find initial paper in {0} paper(s)".format(len(result)))
+            if VERBOSITY > 0: print ("could not find initial paper in {0} paper(s)".format(len(result)))
             return {}
         # init search
         cur_step_papers = [(initial_paper_src, initial_paper_id)]
         
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
-        if VERBOSE: print("\n- - - - - - - - - Looking for referenced papers (0) - - - - - - - - -\n")
+        if VERBOSITY > 0: print("\n- - - - - - - - - Looking for referenced papers (0) - - - - - - - - -\n")
         if TIMING: start_time = time.time()
         # process until we have found as much referenced papers as wanted
         while (len(known_papers) < reference_threshold) and (not stop_looking):
@@ -94,14 +156,16 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.send(json.dumps(message))
             # - - - - - - - - - - - - - SEND TO CLIENT - - - - - - - - - - - - -
             
-            if VERBOSE:
+            if VERBOSITY > 1:
                 print("\n. Explored {0} / {1} paper(s)".format(len(explored), len(known_papers)))
                 print(". Found {0} relation(s)\n".format(sum(list(map(lambda x : len(known_relations[x]), known_relations)))))
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
         
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
-        if VERBOSE: print("\n- - - - - - - - - Requesting mined terms for referenced papers (1) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Requesting mined terms for referenced papers (1) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         term_counts = dict()
         referenced_papers_to_explore = list(map(lambda id: (known_papers[id].src, id), known_papers))
@@ -130,12 +194,14 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.send(json.dumps(message))
             # - - - - - - - - - - - - - SEND TO CLIENT - - - - - - - - - - - - -
             
-            if VERBOSE: print("\n. Requested mined terms for {0} / {1} paper(s)\n".format(init_count - len(referenced_papers_to_explore), init_count))                  
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+            if VERBOSITY > 1: print("\n. Requested mined terms for {0} / {1} paper(s)\n".format(init_count - len(referenced_papers_to_explore), init_count))                  
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
         
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
-        if VERBOSE: print("\n- - - - - - - - - Calculating relevance for referenced papers based on mined terms (2) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Calculating relevance for referenced papers based on mined terms (2) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         
         papers_relevance = dict()
@@ -149,18 +215,20 @@ class MyServerProtocol(WebSocketServerProtocol):
                                 if term_in_init == term_in_other: relevance += 1
                 papers_relevance[id] = relevance
         
-        if VERBOSE:
+        if VERBOSITY > 1:
             average = 0
             for id in papers_relevance: average += papers_relevance[id]
             if len(papers_relevance) > 0: average = average / len(papers_relevance)
             print(". Average paper's relevance: {0}\n".format(average))
             
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
         
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
         citations_for_top = 50
-        if VERBOSE: print("\n- - - - - - - - - Looking for relevant citations (3) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Looking for relevant citations (3) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         
         relevant_ref_papers = list(filter(lambda id : (id in papers_relevance), known_papers))
@@ -191,14 +259,16 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.send(json.dumps(message))
             # - - - - - - - - - - - - - SEND TO CLIENT - - - - - - - - - - - - -
             
-            if VERBOSE:
+            if VERBOSITY > 1:
                 print("\n. Explored {0} / {1} paper(s)".format(len(explored), len(known_papers)))
                 print(". Found {0} relation(s)\n".format(sum(list(map(lambda x : len(known_relations[x]), known_relations)))))
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
 
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
-        if VERBOSE: print("\n- - - - - - - - - Looking for relations between know papers (4) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Looking for relations between know papers (4) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         
         to_explore = list(filter(lambda id : not (id in explored), known_papers)) # TODO: sort to explore to explore first relevant papers
@@ -226,15 +296,17 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.send(json.dumps(message))
             # - - - - - - - - - - - - - SEND TO CLIENT - - - - - - - - - - - - -
             
-            if VERBOSE:
+            if VERBOSITY > 1:
                 print("\n. Explored {0} / {1} paper(s)".format(len(explored), len(known_papers)))
                 print(". Found {0} relation(s)\n".format(sum(list(map(lambda x : len(known_relations[x]), known_relations)))))
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
         if TIMING: start_time = time.time()
 
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         
-        if VERBOSE: print("\n- - - - - - - - - Requesting mined terms for new papers (5) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Requesting mined terms for new papers (5) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         need_to_request_mined_terms = []
         for id in known_papers:
@@ -265,12 +337,14 @@ class MyServerProtocol(WebSocketServerProtocol):
             self.send(json.dumps(message))
             # - - - - - - - - - - - - - SEND TO CLIENT - - - - - - - - - - - - -
             
-            if VERBOSE: print("\n. Requested mined terms for {0} / {1} paper(s)\n".format(init_count - len(referenced_papers_to_explore), init_count))                  
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+            if VERBOSITY > 1: print("\n. Requested mined terms for {0} / {1} paper(s)\n".format(init_count - len(referenced_papers_to_explore), init_count))                  
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
         
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---    
         
-        if VERBOSE: print("\n- - - - - - - - - Producing final data (6) - - - - - - - - -\n")    
+        if VERBOSITY > 0: print("\n- - - - - - - - - Producing final data (6) - - - - - - - - -\n")    
         if TIMING: start_time = time.time()
         final_data = { 'title': 'final' , 'nodes' : [], 'links' : [] }    
         
@@ -290,20 +364,22 @@ class MyServerProtocol(WebSocketServerProtocol):
             final_data['nodes'][index]["links"] = []
         
         # set links for papers
-        for paper in final_data['nodes']:
-            if paper["id"] in known_relations:
-                for other_id in known_relations[paper["id"]]:
-                    paper["links"].append(indexes[other_id]) # references
-                    final_data["nodes"][other_id]["links"].append(indexes[paper["id"]]) # citations
-            #
-            for other_id in known_relations
+        for paper1 in final_data['nodes']:
+            paper1_id = paper1["id"]
+            paper1_index = indexes[paper1_id]
+            if paper1_id in known_relations:
+                for paper2_id in known_relations[paper1_id]:
+                    paper2_index = indexes[paper2_id]
+                    paper2 = final_data["nodes"][paper2_index]
+                    paper1["links"].append(paper2_index) # references
+                    paper2["links"].append(paper1_index) # citations
         
         # add links data
         for paper1 in known_relations:
             for paper2 in known_relations[paper1]:
                 weight = 0
-                for word_p1 in list(map(normalize_word, known_papers[paper1].title.split(" "))):
-                    for word_p2 in list(map(normalize_word, known_papers[paper2].title.split(" "))):
+                for word_p1 in extract_normalized_words_from_title(known_papers[paper1].title):
+                    for word_p2 in extract_normalized_words_from_title(known_papers[paper2].title):
                         if word_p1 == word_p2: weight += 1 / (word_count[word_p1] / len(known_papers))
                 if paper1 in term_counts:
                     for term_p1 in term_counts[paper1]:
@@ -319,7 +395,9 @@ class MyServerProtocol(WebSocketServerProtocol):
         for link in final_data["links"]:
             link["weight"] = link["weight"] / max_weight
 
-        if TIMING: print("done in {0} seconds".format(time.time() - start_time))
+        if TIMING:
+            print("done in {0} seconds".format(time.time() - start_time))
+            total_time += time.time() - start_time
 
         # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---    
         
@@ -330,6 +408,9 @@ class MyServerProtocol(WebSocketServerProtocol):
                 outfile.write(json.dumps(final_data, indent=4, sort_keys=True))
 
         self.send(json.dumps(final_data))
+        
+        if TIMING: print("\ntotal execution time for the search: {0} seconds".format(total_time))
+        if VERBOSITY > 0: print("--- FINISHED --- \n\n - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ - ^ -\n -III-III-III-III-III-III-III-III-III-III-III-III-III-III-III-\n - v - v - v - v - v - v - v - v - v - v - v - v - v - v - v -\n")
         
         return final_data
         
@@ -384,10 +465,19 @@ def search_related_papers(related_to, look_for, request_page_size, known_papers,
                         if not paper.id in known_relations: known_relations[paper.id] = set()
                         known_relations[paper.id].add(cur_id)
                     # Update word_count
-                    for word in set(list(map(normalize_word, paper.title.split(' ')))):
+                    for word in extract_normalized_words_from_title(paper.title):
                         if not word in word_count: word_count[word] = 1
                         else: word_count[word] += 1
     return { 'papers' : known_papers, 'relations' : known_relations, 'word_count' : word_count, 'found' : found_ids }
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+def extract_normalized_words_from_title(title):
+    title_normalized_words = set(list(map(normalize_word, title.split(' '))))
+    if STOP_WORDS:
+        return list(filter(lambda word : not (word in stop_words_set), title_normalized_words))
+    else:
+        return list(title_normalized_words)
 
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
@@ -542,7 +632,7 @@ def perform_queries(queries_set = set(), max_retry_iter = 5):
     # Perfom the queries until we get a response for each
     # or until we reach the max number of query retry.
     while (len(queries_set) > 0) and (iter_count < max_retry_iter):
-        if VERBOSE: print(" .performing {0} API request(s) (attempt number {1})".format(len(queries_set), iter_count))
+        if VERBOSITY > 2: print(" .performing {0} API request(s) (attempt number {1})".format(len(queries_set), iter_count))
         if TIMING: start_time = time.time()
         # Perform the queries
         http_queries = (grequests.get(url) for url in queries_set)
@@ -554,11 +644,11 @@ def perform_queries(queries_set = set(), max_retry_iter = 5):
                     responses.append(http_response.json()) # we only use JSON in our case
                     queries_set.discard(http_response.url)
                 except:
-                    if VERBOSE: print(" .request failed ({0})".format(http_response.url))
+                    if VERBOSITY > 2: print(" .request failed ({0})".format(http_response.url))
                 http_response.close()
         # Count the number of iterations
         iter_count += 1
-        if TIMING: print(" .queries performed in {1} seconds".format(len(queries_set), time.time() - start_time))
+        if TIMING and (VERBOSITY > 2): print(" .queries performed in {1} seconds".format(len(queries_set), time.time() - start_time))
     return responses
         
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
@@ -574,7 +664,7 @@ def normalize_word(word):
     if not isinstance(word, str):
         raise ValueError("word : expected str, found {0}".format(type(word).__name__))
     # Normalize the word
-    return delete_characters(word, ".,?():").lower()
+    return delete_characters(word, ".,?():\n\r").lower()
 
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
@@ -614,13 +704,19 @@ def extract_LtdPaperDetails(JSON_list):
 
 if __name__ == '__main__':
 
-    
-        
     try:
         import asyncio
     except ImportError:
         # Trollius >= 0.3 was renamed
         import trollius as asyncio
+
+    if STOP_WORDS:
+        stop_word_file = "stop_word_list.txt"
+        if VERBOSITY > 1: print("Reading stop words list from {0}.".format(stop_word_file))
+        with open(stop_word_file, 'r') as stop_words_f:
+            for stop_word in stop_words_f:
+                stop_words_set.add(normalize_word(stop_word))
+        if VERBOSITY > 1: print ("Found {0} stop words.".format(len(stop_words_set)))
 
     factory = WebSocketServerFactory(u"ws://127.0.0.1:9000")
     factory.protocol = MyServerProtocol
